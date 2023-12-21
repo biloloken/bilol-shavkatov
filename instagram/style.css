@@ -61,6 +61,9 @@ h1{
 .down-1{
     width: 130px;
 }
+.down-3{
+     text-align: center;
+}
 footer ul{
     margin-left: 20px;
     position: relative;
