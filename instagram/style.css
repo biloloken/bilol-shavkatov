@@ -15,11 +15,18 @@ fieldset{
 h1{
     font-style: italic;
     text-align: center;
+    font-size: 50px;
 }
 .img{
     position: relative;
     left: -70px;
+    height: 570px;
 }
+.instagram{
+    left: -50px;
+    position: relative;
+    height: 570px;
+} 
 .instagram input{
     border: 1px solid rgb(219, 219, 210);
     background-color: rgb(247, 248, 249);
