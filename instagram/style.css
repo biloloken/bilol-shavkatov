@@ -8,6 +8,7 @@ body{
     left: 400px;
     position: absolute;
     display: flex;
+    gap: 5px;
 }
 fieldset{
     border: 1px solid rgb(219, 219, 219);
@@ -20,20 +21,19 @@ h1{
 .img{
     position: relative;
     left: -70px;
-    height: 570px;
 }
 .instagram{
     left: -50px;
     position: relative;
     height: 570px;
-} 
+}
 .instagram input{
     border: 1px solid rgb(219, 219, 210);
     background-color: rgb(247, 248, 249);
     margin: 5px;
     outline: none;
     margin-left: 20px;
-    width: 310px;
+    width: 280px;
     height: 27px;
 }
 .instagram button{
@@ -42,7 +42,7 @@ h1{
     background-color: #68e1ff;
     margin-top: 10px;
     margin-left: 20px;
-    width: 310px;
+    width: 280px;
     height:30px; 
     border-radius: 7px;
 }
@@ -69,32 +69,42 @@ h1{
     width: 130px;
 }
 .down-3{
-     text-align: center;
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
 footer ul{
+    color: grey;
     margin-left: 20px;
     position: relative;
-    top: 620px;
+    top: 650px;
     list-style: none;
     text-align: center;
     display: flex;
-    gap: 15px;
-   }
-   .select{
-    top: 605px;
+    gap: 30px;
+}
+.select{
+    top: 625px;
     position: relative;
     margin-left: 600px;
     display: flex;
-   }
-   select{
+}
+select{
+    color: grey;
     top: 15px;
     position: relative;
     height: 20px;
-   }
-   .select p{
+}
+.select p{
     margin-left: 15px;
-   }
+}
 .Register{
     text-decoration: none;
-    margin-left: 35px;
+}
+.reg{
+    text-align: center;
+}
+.select p{
+    color: grey;
 }
